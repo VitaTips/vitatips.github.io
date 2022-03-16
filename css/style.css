@@ -1,0 +1,42 @@
+.main {
+    font-family: 'Inter', sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    background: #FF0D5D;
+background: -webkit-linear-gradient(to right, #FF0D5D 0%, #A100FF 78%);
+background: -moz-linear-gradient(to right, #FF0D5D 0%, #A100FF 78%);
+background: linear-gradient(to right, #FF0D5D 0%, #A100FF 78%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-top: 5rem;
+
+}
+
+.core {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+
+html {
+    background-color: #363636;
+}
+
+    table {
+        border: 5px solid white;
+        border-collapse: collapse;
+      }
+
+      td, th,tr
+      {
+          border-spacing: 1em;
+          color: white;
+       border-collapse:collapse;
+      }
+p {
+    color: white;
+}
